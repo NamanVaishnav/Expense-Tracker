@@ -18,7 +18,18 @@ struct CardView: View {
             
             VStack(spacing: 0) {
                 HStack(spacing: 12) {
-                    Text("")
+                    Text("\(currencyString(income - expense))")
+                        .font(.title.bold())
+                    
+                    Image(systemName: expense > income ? "chart.line.downtrend.xyaxis" : "chart.line.uptrend.xyaxis" )
+                        .font(.title3)
+                        .foregroundStyle(expense > income ? .red : .green)
+                        
+                }
+                .padding(.bottom, 25)
+                
+                HStack(spacing: 0) {
+//                    ForeEach(Category.allCases)
                 }
             }
         }
