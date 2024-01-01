@@ -24,6 +24,8 @@
 		105DF6982B3F01570075E6BC /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DF6972B3F01570075E6BC /* ViewExtensions.swift */; };
 		105DF69A2B3F094D0075E6BC /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DF6992B3F094D0075E6BC /* Date+Extension.swift */; };
 		105DF69E2B3F0B9A0075E6BC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DF69D2B3F0B9A0075E6BC /* CardView.swift */; };
+		105DF6A02B42B28C0075E6BC /* TransactionCardVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DF69F2B42B28C0075E6BC /* TransactionCardVIew.swift */; };
+		105DF6A22B42C56A0075E6BC /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DF6A12B42C56A0075E6BC /* DateFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		105DF6972B3F01570075E6BC /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		105DF6992B3F094D0075E6BC /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		105DF69D2B3F0B9A0075E6BC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		105DF69F2B42B28C0075E6BC /* TransactionCardVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardVIew.swift; sourceTree = "<group>"; };
+		105DF6A12B42C56A0075E6BC /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				105DF69D2B3F0B9A0075E6BC /* CardView.swift */,
+				105DF69F2B42B28C0075E6BC /* TransactionCardVIew.swift */,
+				105DF6A12B42C56A0075E6BC /* DateFilterView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 				105DF68C2B3EFBE30075E6BC /* Transaction.swift in Sources */,
 				105DF6742B3EF2F60075E6BC /* ContentView.swift in Sources */,
 				105DF69E2B3F0B9A0075E6BC /* CardView.swift in Sources */,
+				105DF6A22B42C56A0075E6BC /* DateFilterView.swift in Sources */,
 				105DF6832B3EF3240075E6BC /* IntroScreen.swift in Sources */,
 				105DF6882B3EF8FD0075E6BC /* Tab.swift in Sources */,
 				105DF6962B3EFE380075E6BC /* Settings.swift in Sources */,
@@ -233,6 +240,7 @@
 				105DF69A2B3F094D0075E6BC /* Date+Extension.swift in Sources */,
 				105DF6942B3EFE140075E6BC /* Graphs.swift in Sources */,
 				105DF68A2B3EFB900075E6BC /* Category.swift in Sources */,
+				105DF6A02B42B28C0075E6BC /* TransactionCardVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
